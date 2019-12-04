@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
     s.preserve_paths = "Paldesk.framework"
     s.vendored_frameworks = "Paldesk.framework"
     s.platform = :ios
+    s.swift_version = "5.0.1"
     s.frameworks = 'Foundation'
     s.ios.deployment_target  = '10.0'
     s.dependency 'Alamofire', '5.0.0-beta.6'
