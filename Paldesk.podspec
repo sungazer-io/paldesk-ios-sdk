@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "Paldesk"
-    s.version      = "0.0.6"
+    s.version      = "0.0.7"
     s.summary      = "A brief description of MyFramework project."
     s.description  = <<-DESC
     An extended description of MyFramework project.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { 'Sungazer OÜ' => 'saverio@sungazer.io' }
-    s.source       = { :git => "https://github.com/sungazer-io/paldesk-ios-sdk.git", :tag => "0.0.6" }
+    s.source       = { :git => "httss://github.com/sungazer-io/paldesk-ios-sdk.git", :tag => "0.0.7" }
     s.public_header_files = "Paldesk.framework/Headers/*.h"
     s.source_files = "Paldesk.framework/Headers/*.h"
     s.preserve_paths = "Paldesk.framework"
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     s.swift_version = "5.1.2"
     s.frameworks = 'Foundation'
     s.ios.deployment_target  = '10.0'
-    s.dependency 'Kingfisher', '5.12.0'
-    s.dependency 'ReSwift', '4.1.1'
+    s.dependency 'Kingfisher', '~> 5.12.0'
+    s.dependency 'ReSwift', '~> 4.1.1'
     s.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
 end
