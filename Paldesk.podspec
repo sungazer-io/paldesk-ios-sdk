@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "Paldesk"
-    s.version      = "0.0.7"
+    s.version      = "0.0.8"
     s.summary      = "A brief description of MyFramework project."
     s.description  = <<-DESC
     An extended description of MyFramework project.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { 'Sungazer OÜ' => 'saverio@sungazer.io' }
-    s.source       = { :git => "httss://github.com/sungazer-io/paldesk-ios-sdk.git", :tag => "0.0.7" }
+    s.source       = { :git => "https://github.com/sungazer-io/paldesk-ios-sdk.git", :tag => "0.0.8" }
     s.public_header_files = "Paldesk.framework/Headers/*.h"
     s.source_files = "Paldesk.framework/Headers/*.h"
     s.preserve_paths = "Paldesk.framework"
